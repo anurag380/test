@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header class="head">
+            <section class="flex">
+                <a href="#home" class="logo"><img src="https://th.bing.com/th/id/R.157b6e166fb34be430bceb40d0683f33?rik=41JglyMIjNxu9A&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fcoffee%2f33957-5-coffee-logo-transparent-background.png&ehk=eioDcniUcHX%2fIE0RpW2mwF9BUP5SCk%2f0gS%2bAJn0XkcM%3d&risl=&pid=ImgRaw&r=0" width=80px"></a>
+                <h3 id="cfe">COFFE HEAVEN</h3>
+
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+            </section>
+        </header>
+
+<!-- HOME PAGE -->
+<div class="home-bg">
+    <section class="home" id="home">
+        <div class="content">
+            <h3>COFFE HEAVEN</h3>
+            <p>Everyone should believe in something. I believe I will have another coffee.
+                "It is inhumane, in my opinion, to force people who have a genuine medical need for coffee to wait in line behind people who apparently view it as some kind of recreational activity."
+            </p>
+            <a href="#menu" class="btn">Menu</a>
+        </div>
+    </section>
+
+</div>
+
+
+<!-- Menu PAGE -->
+<section class="menu" id="menu">
+    <div class="head">
+        <img src="">
+        <h3 style="font-size: 20px; text-align: center;">Popular Menu</h3>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://th.bing.com/th/id/R.b3ecf06c4fe5154d9b6a0acaf914831a?rik=zIaM%2bKpaqrKjpg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f3%2fCoffee-Cappuccino-PNG-Photo.png&ehk=wNQan%2bl8KaN1s%2fDHa2bJsN3yNk8Hl6sMO3h6GHmxiNc%3d&risl=&pid=ImgRaw&r=0" width="80%" alt="">
+            <h3>Love Coffe</h3>
+        </div>
+        <div class="box">
+            <img src="https://www.seekpng.com/png/full/375-3753427_coffee-png-images.png" width="50%" alt="">
+            <h3>Cold Coffe</h3>
+        </div>
+        <div class="box">
+            <img src="https://pngimg.com/uploads/cappuccino/cappuccino_PNG61.png" width="100%"alt="">
+            <h3>Cappuccino</h3>
+        </div>
+        <div class="box">
+            <img src="https://purepng.com/public/uploads/large/purepng.com-cup-mug-coffeecupmufcoffeebean-14115274056523zzvf.png" width="80%"alt="">
+            <h3>Black Coffe</h3>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ITUX4_atx0sagOGP8c2iwQHaHa?pid=ImgDet&w=550&h=550&rs=1" width="80%" alt="">
+            <h3>Coffe Milk Shake</h3>
+        </div>
+        <div class="box">
+            <img src="https://pngimg.com/uploads/cappuccino/cappuccino_PNG26.png" width="80%" alt="">
+            <h3>Italian Coffe</h3>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact page -->
+<section class="contact" id="contact">
+    <div class="head">
+        <h3 style="font-size: 20px; text-align: center;">Contact Us</h3>
+    </div>
+    <div class="row">
+        <div class="image">
+            <img src="https://pngimg.com/uploads/coffee_beans/coffee_beans_PNG97302.png" width="80%">
+        </div>
+        <form action="" method="">
+            <h3 style="font-size: 30px;">Take A Coffe ♥</h3>
+            <div>
+                <input type="text" class="box" id="name" name="name" required maxlength="20" placeholder="Enter Your Name">
+                <input type="number" class="box" id="number" name="number" required minlength="10" maxlength="10" placeholder="Enter Your Number" onkeypress="if(this.value.length == 10) return false">
+            </div>
+            <h1 id="text"></h1>
+            <br>
+            <input type="submit" id="send-btn" name="send" value="SUBMIT" class="btn" onclick="sendmsg()">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- footer --> 
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>Our E-mail</h3>
+            <p>anuragmadathil570@gmail.com</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Our Phone no.</h3>
+            <p>9995800380</p>
+        </div>
+    </div>
+</section>
+
+        <script src="java.js" async defer></script>
+    </body>
+</html>
